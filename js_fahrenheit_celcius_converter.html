@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="js_fahrenheit_celcius_converter.css" />
+
+</head>
+<body> 
+
+<script src="js_fahrenheit_celcius_converter.js"></script>
+
+<div id="box1">
+<h1>CELCIUS TO FAHRENHEIT CONVERTER</h1>
+
+Enter the temperature(C): <input type="text" id="user_input_c">
+
+<button id="c_to_f_converter" onclick="c_t_f_converter();">CONVERT TO FAHRENHEIT</button><br /><br />
+
+The result is: <span id="result_box_c"></span><br /><br />
+
+<button onclick="clearAll_c();">CLEAR ALL</button>
+</div>
+
+
+
+<div id="box2">
+<h1>FAHRENHEIT TO CELCIUS CONVERTER</h1>
+
+Enter the temperature(F): <input type="text" id="user_input_f">
+
+<button id="c_to_f_converter" onclick="t_t_c_converter();">CONVERT TO CELCIUS</button><br /><br />
+
+The result is: <span id="result_box_f"></span><br /><br />
+
+<button onclick="clearAll_f();">CLEAR ALL</button>
+</div>
+
+</body>
+</html>
